@@ -5,7 +5,7 @@
 #include <string.h>
 #include <getopt.h>
 #include "main.h"
-#include "./Libraries/padding.h"
+#include "./lib/padding.h"
 
 typedef int bool;
 static bool should_filter_columns;
