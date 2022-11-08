@@ -1,0 +1,8 @@
+**/.vscode
+**/.build
+
+# Ignore the binary
+csvparse
+
+# Ignore test files
+**/*.csv
