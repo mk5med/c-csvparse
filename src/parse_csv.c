@@ -93,7 +93,7 @@ void parse_csv(char separator, int column_width, FILE *input_file, int *display_
 
       if (no_index == 0) {
         // Print the padded row row_count in preparation for the next input
-        printf("%s", pad_int(row_count, column_width, separator));
+        printf("%s", pad_int__alloc(row_count, column_width, separator));
       }
     }
   }
